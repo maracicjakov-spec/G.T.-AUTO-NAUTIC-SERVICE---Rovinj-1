@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>G.T. Auto-Nautic Service — Auto servis Rovinj</title>
+<meta name="description" content="G.T. Auto-Nautic Service — auto servis i automehaničar u Rovinju, Stanjera 3a. Nazovite 098 907 4797 za informacije o servisu i održavanju vozila.">
+<meta name="theme-color" content="#101923">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23101923'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-weight='800' font-size='28' fill='%23fff' text-anchor='middle'%3EGT%3C/text%3E%3Crect x='48' y='48' width='10' height='10' fill='%23126BEB'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://gt-auto-nautic.hr/">
+<!-- DEMO: zamijeniti canonical / og:url stvarnom domenom prije objave -->
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="hr_HR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:site_name" content="G.T. Auto-Nautic Service">
+<meta property="og:title" content="G.T. Auto-Nautic Service — Auto servis Rovinj">
+<meta property="og:description" content="Auto servis u Rovinju. Stanjera 3a, 52210 Rovinj · 098 907 4797">
+<meta property="og:url" content="https://gt-auto-nautic.hr/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1200&h=630&q=75">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "G.T. Auto-Nautic Service",
+  "telephone": "+385989074797",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Stanjera 3a",
+    "postalCode": "52210",
+    "addressLocality": "Rovinj",
+    "addressRegion": "Istra",
+    "addressCountry": "HR"
+  },
+  "areaServed": "Rovinj",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=G.T.+Auto-Nautic+Service%2C+Stanjera+3a%2C+52210+Rovinj"
+}
+</script>
+
+<style>
+/* ==========================================================================
+   DESIGN TOKENS
+   ========================================================================== */
+:root{
+  --bg:#F7F9FC;
+  --surface:#FFFFFF;
+  --dark:#101923;
+  --dark-2:#16222F;
+  --ink:#17212D;
+  --ink-2:#4A5767;
+  --ink-3:#6B7786;
+  --accent:#126BEB;
+  --accent-hover:#0954C0;
+  --accent-soft:#E8F1FE;
+  --line:#E5EAF0;
+  --line-dark:rgba(255,255,255,.12);
+  --on-dark:#F2F5F9;
+  --on-dark-2:#A9B6C5;
+  --star:#F5B300;
+
+  --font-head:"Manrope", system-ui, sans-serif;
+  --font-body:"Inter", system-ui, sans-serif;
+
+  --fs-label:.75rem;
+  --fs-small:.875rem;
+  --fs-body:1rem;
+  --fs-lead:clamp(1.0625rem, .98rem + .35vw, 1.25rem);
+  --fs-h3:clamp(1.125rem, 1.05rem + .35vw, 1.375rem);
+  --fs-h2:clamp(2rem, 1.35rem + 2.9vw, 3.75rem);
+  --fs-h1:clamp(2.05rem, .9rem + 6.1vw, 6rem);
+
+  --gutter:clamp(1.25rem, .8rem + 2vw, 2.5rem);
+  --section:clamp(5rem, 3.5rem + 6vw, 9rem);
+  --max:1240px;
+
+  --r-sm:4px;
+  --r-md:8px;
+
+  --shadow-1:0 1px 2px rgba(16,25,35,.04), 0 4px 16px rgba(16,25,35,.05);
+  --shadow-2:0 2px 4px rgba(16,25,35,.04), 0 24px 56px -12px rgba(16,25,35,.18);
+
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --t-fast:.2s;
+  --t-med:.45s;
+  --t-slow:.9s;
+
+  --nav-h:72px;
+}
+
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:var(--nav-h)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:var(--fs-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{font-family:var(--font-head);font-weight:800;letter-spacing:-.025em;line-height:1.02}
+ul,ol{margin:0;padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{position:absolute;left:1rem;top:-100px;z-index:200;background:var(--accent);color:#fff;padding:.75rem 1rem;border-radius:var(--r-sm);font-weight:600}
+.skip:focus{top:1rem}
+
+.container{width:100%;max-width:calc(var(--max) + var(--gutter)*2);margin-inline:auto;padding-inline:var(--gutter)}
+
+.label{display:inline-flex;align-items:center;gap:.75rem;font-family:var(--font-head);font-size:var(--fs-label);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.label::before{content:"";width:28px;height:2px;background:currentColor}
+.label--light{color:#7FB0FF}
+
+.h2{font-size:var(--fs-h2);text-transform:uppercase;text-wrap:balance}
+
+/* Buttons */
+.btn{--h:56px;position:relative;display:inline-flex;align-items:center;justify-content:center;gap:.7rem;min-height:var(--h);padding:0 1.6rem;border-radius:var(--r-sm);font-family:var(--font-head);font-weight:700;font-size:.875rem;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;transition:background-color var(--t-fast) var(--ease),color var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease),transform var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease)}
+.btn svg{width:18px;height:18px;flex:none;transition:transform var(--t-fast) var(--ease)}
+.btn:active{transform:translateY(1px) scale(.99)}
+@media (max-width:599px){
+  .btn{white-space:normal;text-align:center;line-height:1.25;padding-block:.75rem}
+  .reviews__body .btn,.about__body .btn{width:100%}
+}
+.btn--primary{background:var(--accent);color:#fff;box-shadow:0 10px 24px -10px rgba(18,107,235,.7)}
+.btn--primary:hover{background:var(--accent-hover);box-shadow:0 14px 30px -10px rgba(9,84,192,.75)}
+.btn--primary:hover svg{transform:rotate(-12deg) scale(1.08)}
+.btn--ghost{color:#fff;border:1px solid rgba(255,255,255,.38);background:rgba(255,255,255,.04)}
+.btn--ghost:hover{background:#fff;color:var(--ink);border-color:#fff}
+.btn--ghost:hover svg,.btn--outline:hover svg{transform:translateX(3px)}
+.btn--outline{color:var(--ink);border:1px solid #CBD4DF;background:var(--surface)}
+.btn--outline:hover{border-color:var(--ink);background:var(--ink);color:#fff}
+
+/* Stars */
+.stars{position:relative;display:inline-block;line-height:0;flex:none}
+.stars svg{width:var(--sz,16px);height:var(--sz,16px);flex:none}
+.stars__fill .stars__row{width:max-content}
+.stars__row{display:flex;gap:2px}
+.stars__base{color:rgba(160,170,185,.45)}
+.stars__fill{position:absolute;inset:0 auto 0 0;overflow:hidden;color:var(--star);width:var(--pct,94%)}
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+.nav{position:fixed;inset:0 0 auto;z-index:100;height:var(--nav-h);color:#fff;transition:background-color var(--t-med) var(--ease),color var(--t-med) var(--ease),box-shadow var(--t-med) var(--ease),height var(--t-med) var(--ease)}
+.nav::after{content:"";position:absolute;inset:auto 0 0;height:1px;background:var(--line);opacity:0;transition:opacity var(--t-med) var(--ease)}
+.nav.is-solid{background:rgba(255,255,255,.9);-webkit-backdrop-filter:saturate(180%) blur(14px);backdrop-filter:saturate(180%) blur(14px);color:var(--ink);--nav-h:64px;height:64px}
+.nav.is-solid::after{opacity:1}
+.nav.is-menu,.nav.is-menu.is-solid{background:var(--dark);color:#fff;-webkit-backdrop-filter:none;backdrop-filter:none}
+.nav.is-menu::after{opacity:0}
+.nav__inner{height:100%;display:flex;align-items:center;gap:1.5rem}
+
+.logo{display:inline-flex;align-items:center;gap:.7rem;font-family:var(--font-head);line-height:1}
+.logo__mark{display:grid;place-items:center;width:40px;height:40px;border:1.5px solid currentColor;border-radius:var(--r-sm);font-weight:800;font-size:.9rem;letter-spacing:-.02em;position:relative}
+.logo__mark::after{content:"";position:absolute;right:-1.5px;bottom:-1.5px;width:10px;height:10px;background:var(--accent)}
+.logo__text{display:flex;flex-direction:column;gap:3px}
+.logo__name{font-weight:800;font-size:clamp(.875rem, .7rem + .8vw, 1rem);letter-spacing:.02em;white-space:nowrap}
+.logo__sub{font-weight:600;font-size:.625rem;letter-spacing:.24em;opacity:.7}
+
+.nav__links{display:none;margin-left:auto;gap:2rem}
+.nav__links a{position:relative;font-size:.9375rem;font-weight:500;padding:.5rem 0;opacity:.88;transition:opacity var(--t-fast)}
+.nav__links a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1.5px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform var(--t-med) var(--ease-out)}
+.nav__links a:hover{opacity:1}
+.nav__links a:hover::after,.nav__links a[aria-current="true"]::after{transform:scaleX(1);transform-origin:left}
+
+.lang{display:inline-flex;align-items:center;border:1px solid currentColor;border-color:rgba(255,255,255,.28);border-radius:var(--r-sm);padding:2px}
+.nav.is-solid .lang{border-color:var(--line)}
+.lang button{min-width:34px;height:30px;font-family:var(--font-head);font-size:.6875rem;font-weight:700;letter-spacing:.08em;border-radius:2px;opacity:.7;transition:background-color var(--t-fast),color var(--t-fast),opacity var(--t-fast)}
+.lang button:hover{opacity:1}
+.lang button[aria-pressed="true"]{opacity:1;background:#fff;color:var(--ink)}
+.nav.is-solid .lang button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.nav__lang{display:none}
+
+.nav__cta{display:none}
+.nav__actions{margin-left:auto;display:flex;align-items:center;gap:.5rem}
+.icon-btn{display:grid;place-items:center;width:48px;height:48px;border-radius:var(--r-sm)}
+.icon-btn svg{width:20px;height:20px}
+.nav__call{background:var(--accent);color:#fff}
+.nav__call:hover{background:var(--accent-hover)}
+.burger{position:relative}
+.burger span{position:absolute;left:13px;right:13px;height:1.5px;background:currentColor;transition:transform var(--t-med) var(--ease-out),opacity var(--t-fast)}
+.burger span:nth-child(1){top:19px}
+.burger span:nth-child(2){top:28px;left:21px}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(4.5px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){transform:translateY(-4.5px) rotate(-45deg);left:13px}
+
+@media (min-width:1024px){
+  .nav__links{display:flex}
+  .nav__lang{display:inline-flex}
+  .nav__actions{margin-left:0}
+  .nav__cta{display:inline-flex;--h:44px;padding:0 1.1rem;font-size:.75rem}
+  .nav__call,.burger{display:none}
+}
+
+/* Mobile menu */
+.menu{position:fixed;inset:0;z-index:90;background:var(--dark);color:#fff;display:flex;flex-direction:column;padding:calc(var(--nav-h) + 1.5rem) var(--gutter) calc(1.5rem + env(safe-area-inset-bottom));visibility:hidden;opacity:0;transition:opacity var(--t-med) var(--ease),visibility 0s linear var(--t-med)}
+.menu.is-open{visibility:visible;opacity:1;transition:opacity var(--t-med) var(--ease)}
+.menu__links{display:flex;flex-direction:column;border-top:1px solid var(--line-dark)}
+.menu__links a{display:flex;align-items:baseline;gap:1rem;padding:1.05rem 0;border-bottom:1px solid var(--line-dark);font-family:var(--font-head);font-weight:700;font-size:clamp(1.6rem,7vw,2.2rem);letter-spacing:-.02em;transform:translateY(16px);opacity:0;transition:transform .6s var(--ease-out),opacity .6s var(--ease-out)}
+.menu__links a small{font-size:.75rem;letter-spacing:.14em;color:var(--on-dark-2);font-weight:600;min-width:1.5rem}
+.menu.is-open .menu__links a{transform:none;opacity:1}
+.menu.is-open .menu__links li:nth-child(2) a{transition-delay:.04s}
+.menu.is-open .menu__links li:nth-child(3) a{transition-delay:.08s}
+.menu.is-open .menu__links li:nth-child(4) a{transition-delay:.12s}
+.menu.is-open .menu__links li:nth-child(5) a{transition-delay:.16s}
+.menu__foot{margin-top:auto;display:grid;gap:1rem;padding-top:2rem}
+.menu__foot .lang{justify-self:start;border-color:var(--line-dark)}
+.menu__foot .lang button{min-width:48px;height:40px}
+.menu__addr{font-size:.875rem;color:var(--on-dark-2)}
+@media (min-width:1024px){.menu{display:none}}
+
+/* ==========================================================================
+   HERO
+   ========================================================================== */
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:var(--dark);overflow:hidden;isolation:isolate}
+.hero__bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 50%;z-index:-2;transform:scale(1.06);animation:heroZoom 2.4s var(--ease-out) forwards}
+@keyframes heroZoom{to{transform:scale(1)}}
+.hero__shade{position:absolute;inset:0;z-index:-1;background:
+  linear-gradient(180deg,rgba(10,16,23,.55) 0%,rgba(10,16,23,.15) 30%,rgba(10,16,23,.55) 62%,rgba(10,16,23,.94) 100%),
+  linear-gradient(90deg,rgba(10,16,23,.7) 0%,rgba(10,16,23,0) 70%)}
+.hero__inner{padding-top:calc(var(--nav-h) + 3rem);padding-bottom:clamp(2.5rem,6vh,4.5rem)}
+.eyebrow{display:inline-flex;align-items:center;gap:.65rem;font-family:var(--font-head);font-weight:700;font-size:var(--fs-label);letter-spacing:.22em;text-transform:uppercase;color:#D6E2F0}
+.eyebrow i{width:8px;height:8px;background:var(--accent);box-shadow:0 0 0 4px rgba(18,107,235,.25)}
+.hero h1{margin-top:1.25rem;font-size:var(--fs-h1);line-height:.98;letter-spacing:-.035em;text-transform:uppercase}
+.hero h1 span{display:block}
+.hero h1 .muted{color:#9FB4CB}
+.hero__text{margin-top:1.5rem;max-width:34rem;font-size:var(--fs-lead);line-height:1.55;color:#D9E2EC}
+.hero__actions{margin-top:2.25rem;display:flex;flex-wrap:wrap;gap:.75rem}
+.rating{margin-top:2rem;display:inline-flex;align-items:center;gap:.9rem;padding:.55rem .9rem .55rem .7rem;border-radius:var(--r-sm);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);font-size:.875rem;transition:background-color var(--t-fast)}
+.rating:hover{background:rgba(255,255,255,.13)}
+.rating__g{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#fff;flex:none}
+.rating__g svg{width:16px;height:16px}
+.rating__txt{display:flex;flex-direction:column;gap:.2rem}
+.rating__top{display:flex;align-items:center;gap:.6rem}
+.rating strong{font-weight:600;color:#fff}
+.rating__sub{color:#B9C6D4;font-size:.8125rem}
+.stars .stars__fill{color:var(--star)}
+@media (min-width:600px){
+  .rating__txt{flex-direction:row;align-items:center;gap:.9rem}
+  .rating__sub{font-size:.875rem;padding-left:.9rem;border-left:1px solid rgba(255,255,255,.22)}
+}
+.hero__meta{display:none}
+
+@media (max-width:599px){
+  .hero__actions .btn{flex:1 1 100%}
+}
+@media (min-width:900px){
+  .hero{min-height:min(100svh,980px)}
+  .hero__inner{padding-bottom:9.5rem}
+  .hero__meta{display:flex;position:absolute;left:0;right:0;bottom:5.5rem;justify-content:space-between;font-family:var(--font-head);font-size:.6875rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.55);pointer-events:none}
+}
+
+/* ==========================================================================
+   TRUST STRIP
+   ========================================================================== */
+.trust{position:relative;z-index:2}
+.trust__grid{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);box-shadow:var(--shadow-2);display:grid}
+.trust__item{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:1rem;padding:1.25rem 1.25rem;min-height:84px;transition:background-color var(--t-fast)}
+.trust__item + .trust__item{border-top:1px solid var(--line)}
+.trust__item:hover{background:#FAFBFD}
+.trust__icon{display:grid;place-items:center;width:44px;height:44px;border-radius:var(--r-sm);background:var(--accent-soft);color:var(--accent)}
+.trust__icon svg{width:20px;height:20px}
+.trust__meta{display:flex;flex-direction:column;gap:.15rem;min-width:0}
+.trust__label{font-family:var(--font-head);font-size:.6875rem;font-weight:700;letter-spacing:.16em;color:var(--ink-3);text-transform:uppercase}
+.trust__label b{color:var(--accent);margin-right:.5rem}
+.trust__value{font-family:var(--font-head);font-weight:700;font-size:1.125rem;letter-spacing:-.01em}
+.trust__go{color:var(--ink-3);transition:transform var(--t-fast) var(--ease),color var(--t-fast)}
+.trust__go svg{width:18px;height:18px}
+.trust__item:hover .trust__go{transform:translateX(3px);color:var(--accent)}
+@media (min-width:900px){
+  .trust{margin-top:-3.25rem}
+  .trust__grid{grid-template-columns:repeat(3,1fr)}
+  .trust__item{padding:1.75rem 2rem;min-height:112px}
+  .trust__item + .trust__item{border-top:0;border-left:1px solid var(--line)}
+}
+@media (max-width:899px){.trust{padding-top:1.25rem}}
+
+/* ==========================================================================
+   SECTIONS
+   ========================================================================== */
+.section{padding-block:var(--section)}
+
+/* About */
+.about__grid{display:grid;gap:3.5rem}
+.about__media{position:relative;padding-right:14%;padding-bottom:14%}
+.about__main{position:relative;overflow:hidden;border-radius:var(--r-md);aspect-ratio:4/5;background:#DDE3EA}
+.about__main img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease-out)}
+.about__media:hover .about__main img{transform:scale(1.04)}
+.about__inset{position:absolute;right:0;bottom:0;width:46%;aspect-ratio:1;overflow:hidden;border-radius:var(--r-md);border:6px solid var(--bg);box-shadow:var(--shadow-2);background:#DDE3EA}
+.about__inset img{width:100%;height:100%;object-fit:cover}
+.about__tag{position:absolute;left:1rem;top:1rem;display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.94);color:var(--ink);padding:.5rem .75rem;border-radius:var(--r-sm);font-family:var(--font-head);font-size:.6875rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.about__tag svg{width:14px;height:14px;color:var(--accent)}
+.about__frame{position:absolute;left:-12px;top:-12px;width:72px;height:72px;border-left:2px solid var(--accent);border-top:2px solid var(--accent);pointer-events:none}
+.about__body .h2{margin-top:1.25rem}
+.about__body p:not(.label){margin-top:1.5rem;font-size:var(--fs-lead);color:var(--ink-2);max-width:34rem}
+.facts{margin-top:2.5rem;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}
+.facts div{padding:1.25rem 0;border-bottom:1px solid var(--line)}
+.facts div:nth-child(odd){padding-right:1rem}
+.facts div:nth-child(even){padding-left:1rem;border-left:1px solid var(--line)}
+.facts dt{font-family:var(--font-head);font-size:.6875rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.facts dd{margin:.35rem 0 0;font-family:var(--font-head);font-weight:700;font-size:1.0625rem}
+.facts a:hover{color:var(--accent)}
+.about__body .btn{margin-top:2.25rem}
+@media (min-width:900px){
+  .about__grid{grid-template-columns:1fr 1fr;gap:clamp(3rem,7vw,7rem);align-items:center}
+}
+
+/* Services */
+.services{background:var(--surface);border-block:1px solid var(--line)}
+.services__grid{display:grid;gap:3rem}
+.services__head .h2{margin-top:1.25rem}
+.services__head p:not(.label){margin-top:1.25rem;color:var(--ink-2);font-size:var(--fs-lead);max-width:26rem}
+.services__phone{margin-top:2rem;display:inline-flex;align-items:center;gap:.75rem;font-family:var(--font-head);font-weight:800;font-size:clamp(1.375rem,1.1rem + 1vw,1.875rem);letter-spacing:-.02em;color:var(--ink);border-bottom:2px solid var(--accent);padding-bottom:.25rem;transition:color var(--t-fast)}
+.services__phone:hover{color:var(--accent)}
+.srv{position:relative;display:grid;grid-template-columns:auto 1fr;gap:1.25rem 1.5rem;padding:2rem 0;border-top:1px solid var(--line)}
+.srv:last-child{border-bottom:1px solid var(--line)}
+.srv::before{content:"";position:absolute;left:0;top:-1px;height:2px;width:100%;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .7s var(--ease-out)}
+.srv:hover::before{transform:scaleX(1)}
+.srv__icon{display:grid;place-items:center;width:56px;height:56px;border-radius:var(--r-sm);border:1px solid var(--line);background:var(--bg);color:var(--ink);transition:background-color var(--t-med) var(--ease),color var(--t-med) var(--ease),border-color var(--t-med) var(--ease)}
+.srv__icon svg{width:26px;height:26px}
+.srv:hover .srv__icon{background:var(--accent);border-color:var(--accent);color:#fff}
+.srv__num{font-family:var(--font-head);font-size:.75rem;font-weight:700;letter-spacing:.16em;color:var(--accent)}
+.srv h3{margin-top:.4rem;font-size:var(--fs-h3);text-transform:uppercase;letter-spacing:-.01em}
+.srv p{margin-top:.6rem;color:var(--ink-2);max-width:32rem}
+.srv__link{grid-column:2;justify-self:start;display:inline-flex;align-items:center;gap:.5rem;min-height:44px;font-family:var(--font-head);font-size:.8125rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.srv__link svg{width:16px;height:16px;transition:transform var(--t-fast) var(--ease)}
+.srv__link:hover{color:var(--accent-hover)}
+.srv__link:hover svg{transform:translateX(4px)}
+@media (min-width:900px){
+  .services__grid{grid-template-columns:5fr 7fr;gap:clamp(3rem,6vw,6rem);align-items:start}
+  .services__head{position:sticky;top:calc(var(--nav-h) + 3rem)}
+  .srv{grid-template-columns:auto 1fr auto;align-items:start;padding:2.5rem 0}
+  .srv__link{grid-column:3;grid-row:1;align-self:center}
+}
+
+/* Why (dark) */
+.why{position:relative;background:var(--dark);color:var(--on-dark);overflow:hidden;isolation:isolate}
+.why::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.5;background-image:linear-gradient(var(--line-dark) 1px,transparent 1px),linear-gradient(90deg,var(--line-dark) 1px,transparent 1px);background-size:80px 80px;-webkit-mask-image:radial-gradient(ellipse 70% 60% at 85% 0%,#000 0%,transparent 70%);mask-image:radial-gradient(ellipse 70% 60% at 85% 0%,#000 0%,transparent 70%)}
+.why__head{display:grid;gap:1.5rem}
+.why__head .h2{color:#fff;max-width:18ch}
+.why__grid{margin-top:clamp(3rem,6vw,5rem);display:grid;border-top:1px solid var(--line-dark)}
+.why__item{position:relative;padding:2rem 0 2.25rem;border-bottom:1px solid var(--line-dark)}
+.why__num{font-family:var(--font-head);font-weight:800;font-size:clamp(3.5rem,3rem + 2vw,5rem);line-height:1;letter-spacing:-.04em;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.28)}
+.why__icon{position:absolute;right:0;top:2rem;color:#7FB0FF}
+.why__icon svg{width:26px;height:26px}
+.why__item h3{margin-top:1.5rem;font-size:var(--fs-h3);color:#fff;text-transform:uppercase;letter-spacing:-.005em}
+.why__item p{margin-top:.6rem;color:var(--on-dark-2);max-width:22rem}
+.why__item a{display:inline-flex;align-items:center;gap:.4rem;margin-top:1.1rem;min-height:44px;font-family:var(--font-head);font-weight:700;font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:#fff;border-bottom:1px solid rgba(255,255,255,.3);transition:border-color var(--t-fast),color var(--t-fast)}
+.why__item a:hover{border-color:#7FB0FF;color:#7FB0FF}
+@media (min-width:900px){
+  .why__head{grid-template-columns:auto 1fr;align-items:end;justify-content:space-between}
+  .why__grid{grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--line-dark)}
+  .why__item{padding:2.75rem 2.5rem 3rem;border-bottom:0}
+  .why__item:first-child{padding-left:0}
+  .why__item + .why__item{border-left:1px solid var(--line-dark)}
+  .why__icon{right:2.5rem;top:2.75rem}
+}
+
+/* Split Auto × Nautic */
+.split{position:relative;background:var(--dark);display:grid}
+.split__half{position:relative;overflow:hidden;height:62vw;max-height:520px;min-height:260px}
+.split__half img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease-out)}
+.split__half:hover img{transform:scale(1.05)}
+.split__half::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,16,23,0) 50%,rgba(10,16,23,.6) 100%)}
+.split__tag{position:absolute;z-index:1;bottom:1.25rem;font-family:var(--font-head);font-weight:800;font-size:.75rem;letter-spacing:.28em;color:#fff;display:flex;align-items:center;gap:.6rem}
+.split__tag::before{content:"";width:22px;height:2px;background:var(--accent)}
+.split__half--auto .split__tag{left:var(--gutter)}
+.split__half--nautic .split__tag{right:var(--gutter);flex-direction:row-reverse}
+.split__card{background:var(--surface);padding:2.75rem var(--gutter);text-align:center}
+.split__card h2{font-size:clamp(2.1rem,1.4rem + 3vw,4.25rem);text-transform:uppercase;letter-spacing:-.035em;line-height:.98}
+.split__card h2 span{display:block}
+.split__card h2 em{font-style:normal;color:var(--accent)}
+.split__card p{margin-top:1.1rem;font-family:var(--font-head);font-weight:600;font-size:.8125rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.split__rule{display:flex;align-items:center;justify-content:center;gap:.6rem;margin-bottom:1.4rem;color:var(--accent)}
+.split__rule::before,.split__rule::after{content:"";width:36px;height:1px;background:var(--line)}
+.split__rule svg{width:22px;height:22px}
+@media (min-width:900px){
+  .split{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .split__half{height:min(84vh,760px);max-height:none}
+  .split__half--auto{grid-column:1;grid-row:1}
+  .split__half--nautic{grid-column:2;grid-row:1}
+  .split__card{grid-column:1/-1;grid-row:1;align-self:center;justify-self:center;z-index:2;padding:3.25rem 3.75rem;border-radius:var(--r-md);box-shadow:0 40px 80px -24px rgba(0,0,0,.55)}
+}
+@media (max-width:899px){
+  .split__half--auto{order:1}.split__card{order:2}.split__half--nautic{order:3}
+}
+
+/* Reviews */
+.reviews__grid{display:grid;gap:3rem}
+.reviews__grid>*,.about__grid>*,.services__grid>*,.location__grid>*{min-width:0}
+.score{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:clamp(2rem,4vw,3.5rem);box-shadow:var(--shadow-1);overflow:hidden}
+.score::after{content:"";position:absolute;inset:auto -10% -1px -10%;height:4px;background:var(--accent)}
+.score__top{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.score__brand{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--font-head);font-weight:700;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.score__brand svg{width:20px;height:20px}
+.score__value{margin-top:1.5rem;display:flex;align-items:flex-end;gap:.5rem;font-family:var(--font-head);font-weight:800;letter-spacing:-.06em;line-height:.8}
+.score__value b{font-size:clamp(6.5rem,5rem + 8vw,11rem)}
+.score__value span{font-size:clamp(1.5rem,1.2rem + 1.4vw,2.5rem);color:var(--ink-3);letter-spacing:-.02em;padding-bottom:.35em}
+.score .stars{margin-top:1.75rem;--sz:28px}
+.score__basis{margin-top:1.1rem;font-family:var(--font-head);font-weight:700;font-size:.8125rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.reviews__body .h2{margin-top:1.25rem}
+.reviews__body p:not(.label){margin-top:1.5rem;color:var(--ink-2);font-size:var(--fs-lead);max-width:30rem}
+.reviews__body .btn{margin-top:2.25rem}
+.reviews__note{margin-top:1rem;font-size:.8125rem;color:var(--ink-3)}
+@media (min-width:900px){
+  .reviews__grid{grid-template-columns:5fr 6fr;gap:clamp(3rem,7vw,7rem);align-items:center}
+}
+
+/* Location */
+.location{background:var(--surface);border-top:1px solid var(--line)}
+.location__grid{display:grid;gap:3rem}
+.location__info .h2{margin-top:1.25rem}
+.addr{margin-top:2.25rem;display:grid;border-top:1px solid var(--line)}
+.addr__row{display:grid;grid-template-columns:44px 1fr;gap:1rem;padding:1.4rem 0;border-bottom:1px solid var(--line)}
+.addr__row svg{width:22px;height:22px;color:var(--accent);margin-top:2px}
+.addr__k{font-family:var(--font-head);font-size:.6875rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.addr__v{margin-top:.3rem;font-style:normal;font-family:var(--font-head);font-weight:700;font-size:1.125rem;line-height:1.45}
+.addr__v a:hover{color:var(--accent)}
+.location__btns{margin-top:2.25rem;display:flex;flex-wrap:wrap;gap:.75rem}
+.map{position:relative;min-height:340px;border-radius:var(--r-md);overflow:hidden;border:1px solid var(--line);background:#E9EEF3 repeating-linear-gradient(45deg,transparent 0 14px,rgba(16,25,35,.03) 14px 15px)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.35) contrast(1.02)}
+@media (max-width:599px){.location__btns .btn{flex:1 1 100%}}
+@media (min-width:900px){
+  .location__grid{grid-template-columns:5fr 7fr;gap:clamp(3rem,6vw,6rem);align-items:stretch}
+  .map{min-height:520px}
+}
+
+/* Final CTA */
+.final{position:relative;color:#fff;background:var(--dark);overflow:hidden;isolation:isolate;text-align:center}
+.final__bg{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;opacity:.42}
+.final::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse 80% 70% at 50% 50%,rgba(16,25,35,.45),rgba(16,25,35,.95))}
+.final .label{justify-content:center}
+.final h2{margin:1.5rem auto 0;font-size:clamp(2.2rem,1.3rem + 4.2vw,5.25rem);text-transform:uppercase;letter-spacing:-.035em;line-height:.98;max-width:16ch;text-wrap:balance}
+.final p:not(.label){margin:1.5rem auto 0;max-width:34rem;font-size:var(--fs-lead);color:#C9D4E0}
+.final__btns{margin-top:2.75rem;display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem}
+@media (max-width:599px){.final__btns .btn{flex:1 1 100%}}
+
+/* Footer */
+.footer{background:#0B121A;color:var(--on-dark-2);padding:4.5rem 0 2rem;font-size:.9375rem}
+.footer__grid{display:grid;gap:2.5rem}
+.footer .logo{color:#fff}
+.footer__tag{margin-top:1rem;max-width:20rem}
+.footer h3{font-size:.6875rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#fff;margin-bottom:1rem}
+.footer li + li{margin-top:.55rem}
+.footer a{transition:color var(--t-fast)}
+.footer a:hover{color:#fff}
+.footer address{font-style:normal;line-height:1.7}
+.footer__bottom{margin-top:3.5rem;padding-top:1.5rem;border-top:1px solid var(--line-dark);display:flex;flex-wrap:wrap;gap:.75rem 2rem;justify-content:space-between;font-size:.8125rem;color:#7D8B9B}
+@media (min-width:768px){.footer__grid{grid-template-columns:2fr 1fr 1.4fr}}
+
+/* Mobile sticky contact bar */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:80;display:grid;grid-template-columns:1.4fr 1fr;gap:.5rem;padding:.6rem var(--gutter) calc(.6rem + env(safe-area-inset-bottom));background:rgba(255,255,255,.94);-webkit-backdrop-filter:saturate(180%) blur(14px);backdrop-filter:saturate(180%) blur(14px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform var(--t-med) var(--ease-out)}
+.dock.is-visible{transform:none}
+.dock .btn{--h:50px;padding:0 1rem;font-size:.8125rem}
+@media (min-width:1024px){.dock{display:none}}
+@media (max-width:1023px){.footer{padding-bottom:calc(5.5rem + env(safe-area-inset-bottom))}}
+
+/* ==========================================================================
+   REVEAL MOTION (progressive — only when JS + motion allowed)
+   ========================================================================== */
+.js .reveal{opacity:0;transform:translateY(28px);transition:opacity var(--t-slow) var(--ease-out),transform var(--t-slow) var(--ease-out);transition-delay:var(--d,0s)}
+.js .reveal.is-in{opacity:1;transform:none}
+.js .hero .reveal{animation:rise 1s var(--ease-out) both;animation-delay:var(--d,0s);transition:none;opacity:1;transform:none}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;transition-delay:0s!important}
+  .js .reveal{opacity:1;transform:none}
+  .hero__bg{transform:none}
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#main" data-i18n="skip">Preskoči na sadržaj</a>
+
+<!-- SVG sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-8-8 18-2-8-8-2z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+  <symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a9 9 0 1 1 16 0"/><path d="M12 14l4-5"/><circle cx="12" cy="14" r="1.4"/><path d="M7 11l1 .6M12 7.5V8.6M17 11l-1 .6"/></symbol>
+  <symbol id="i-anchor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><path d="M12 7v14M8 11h8M4 14a8 8 0 0 0 16 0"/><path d="M4 14l-1.5 1.5M20 14l1.5 1.5"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16v-4l2.2-5A2 2 0 0 1 7 6h10a2 2 0 0 1 1.8 1l2.2 5v4"/><path d="M3 12h18M3 16h18v1.5a1 1 0 0 1-1 1h-1.5a1 1 0 0 1-1-1V16M6.5 16v1.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V16"/><circle cx="7" cy="14" r=".6" fill="currentColor"/><circle cx="17" cy="14" r=".6" fill="currentColor"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M8 10.5h8"/></symbol>
+  <symbol id="i-badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.4 1.8 3-.2.9 2.9 2.4 1.8-1 2.8 1 2.8-2.4 1.8-.9 2.9-3-.2L12 21l-2.4-1.8-3 .2-.9-2.9-2.4-1.8 1-2.8-1-2.8 2.4-1.8.9-2.9 3 .2z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.4"/></symbol>
+  <symbol id="i-g" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.5 12.3c0-.8-.1-1.5-.2-2.2H12v4.2h5.9a5 5 0 0 1-2.2 3.3v2.7h3.5c2.1-1.9 3.3-4.7 3.3-8z"/><path fill="#34A853" d="M12 23c3 0 5.5-1 7.2-2.7l-3.5-2.7c-1 .7-2.2 1-3.7 1-2.9 0-5.3-1.9-6.2-4.5H2.2v2.8A11 11 0 0 0 12 23z"/><path fill="#FBBC05" d="M5.8 14.1a6.6 6.6 0 0 1 0-4.2V7.1H2.2a11 11 0 0 0 0 9.8z"/><path fill="#EA4335" d="M12 5.4c1.6 0 3.1.6 4.2 1.7l3.1-3.1A11 11 0 0 0 2.2 7.1l3.6 2.8C6.7 7.3 9.1 5.4 12 5.4z"/></symbol>
+</svg>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="logo" href="#pocetna" aria-label="G.T. Auto-Nautic Service">
+      <span class="logo__mark" aria-hidden="true">GT</span>
+      <span class="logo__text"><span class="logo__name">G.T. AUTO-NAUTIC</span><span class="logo__sub">SERVICE · ROVINJ</span></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Glavna navigacija" data-i18n-attr="aria-label:nav.aria">
+      <a href="#pocetna" data-i18n="nav.home">Početna</a>
+      <a href="#o-nama" data-i18n="nav.about">O nama</a>
+      <a href="#usluge" data-i18n="nav.services">Usluge</a>
+      <a href="#recenzije" data-i18n="nav.reviews">Recenzije</a>
+      <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+
+    <div class="lang nav__lang" role="group" aria-label="Jezik" data-i18n-attr="aria-label:lang.aria" data-lang-switch></div>
+
+    <a class="btn btn--primary nav__cta" href="tel:+385989074797">
+      <svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="nav.call">Nazovite nas</span>
+    </a>
+
+    <div class="nav__actions">
+      <a class="icon-btn nav__call" href="tel:+385989074797" aria-label="Nazovite nas" data-i18n-attr="aria-label:nav.call"><svg aria-hidden="true"><use href="#i-phone"/></svg></a>
+      <button class="icon-btn burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Otvori izbornik" data-i18n-attr="aria-label:nav.open"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="menu" id="menu" aria-hidden="true">
+  <ul class="menu__links">
+    <li><a href="#pocetna"><small>01</small><span data-i18n="nav.home">Početna</span></a></li>
+    <li><a href="#o-nama"><small>02</small><span data-i18n="nav.about">O nama</span></a></li>
+    <li><a href="#usluge"><small>03</small><span data-i18n="nav.services">Usluge</span></a></li>
+    <li><a href="#recenzije"><small>04</small><span data-i18n="nav.reviews">Recenzije</span></a></li>
+    <li><a href="#kontakt"><small>05</small><span data-i18n="nav.contact">Kontakt</span></a></li>
+  </ul>
+  <div class="menu__foot">
+    <div class="lang" role="group" aria-label="Jezik" data-i18n-attr="aria-label:lang.aria" data-lang-switch></div>
+    <a class="btn btn--primary" href="tel:+385989074797"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="nav.call">Nazovite nas</span></a>
+    <p class="menu__addr">Stanjera 3a, 52210 Rovinj</p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<!-- DEMO slika (Unsplash, ilustrativna) — zamijeniti stvarnom fotografijom servisa -->
+<section class="hero" id="pocetna" aria-labelledby="hero-title">
+  <img class="hero__bg"
+       src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1600&q=72"
+       srcset="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=800&h=1300&q=70 800w,
+               https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1280&q=72 1280w,
+               https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1920&q=72 1920w,
+               https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=2560&q=70 2560w"
+       sizes="100vw" alt="Mehaničar pregledava motorni prostor automobila" data-i18n-attr="alt:img.hero"
+       fetchpriority="high" decoding="async" width="1920" height="1280">
+  <div class="hero__shade" aria-hidden="true"></div>
+
+  <div class="container hero__inner">
+    <p class="eyebrow reveal" style="--d:.1s"><i aria-hidden="true"></i><span data-i18n="hero.eyebrow">Auto servis • Rovinj</span></p>
+    <h1 id="hero-title" class="reveal" style="--d:.2s">
+      <span data-i18n="hero.l1">Pouzdan servis.</span>
+      <span class="muted" data-i18n="hero.l2">Sigurna vožnja.</span>
+    </h1>
+    <p class="hero__text reveal" style="--d:.35s" data-i18n="hero.text">Profesionalan pristup održavanju i servisu vozila u Rovinju. Obratite nam se s povjerenjem.</p>
+    <div class="hero__actions reveal" style="--d:.45s" id="heroActions">
+      <a class="btn btn--primary" href="tel:+385989074797"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="hero.cta1">Nazovite servis</span></a>
+      <a class="btn btn--ghost" href="#" data-maps target="_blank" rel="noopener"><span data-i18n="hero.cta2">Kako do nas</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+    <a class="rating reveal" style="--d:.55s" href="#recenzije">
+      <span class="rating__g" aria-hidden="true"><svg><use href="#i-g"/></svg></span>
+      <span class="rating__txt">
+        <span class="rating__top"><span class="stars" data-stars aria-hidden="true"></span><strong data-i18n="hero.rating">4,7 / 5 na Googleu</strong></span>
+        <span class="rating__sub" data-i18n="hero.reviews">182 recenzije</span>
+      </span>
+    </a>
+  </div>
+
+  <div class="container hero__meta" aria-hidden="true">
+    <span>Stanjera 3a — 52210 Rovinj</span>
+    <span>G.T. Auto-Nautic Service</span>
+  </div>
+</section>
+
+<!-- ================= TRUST STRIP ================= -->
+<section class="trust" aria-label="Osnovni podaci" data-i18n-attr="aria-label:trust.aria">
+  <div class="container">
+    <div class="trust__grid reveal">
+      <a class="trust__item" href="#" data-maps target="_blank" rel="noopener">
+        <span class="trust__icon" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>
+        <span class="trust__meta"><span class="trust__label"><b>01</b><span data-i18n="trust.l1">Lokacija</span></span><span class="trust__value" data-i18n="trust.v1">Rovinj, Istra</span></span>
+        <span class="trust__go" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="trust__item" href="#recenzije">
+        <span class="trust__icon" aria-hidden="true"><svg><use href="#i-star"/></svg></span>
+        <span class="trust__meta"><span class="trust__label"><b>02</b><span data-i18n="trust.l2">Google ocjena</span></span><span class="trust__value" data-i18n="fmt.score">4,7 / 5</span></span>
+        <span class="trust__go" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="trust__item" href="tel:+385989074797">
+        <span class="trust__icon" aria-hidden="true"><svg><use href="#i-phone"/></svg></span>
+        <span class="trust__meta"><span class="trust__label"><b>03</b><span data-i18n="trust.l3">Kontakt</span></span><span class="trust__value" data-i18n="phone">098 907 4797</span></span>
+        <span class="trust__go" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="o-nama" aria-labelledby="about-title">
+  <div class="container about__grid">
+    <!-- DEMO slike (Unsplash, ilustrativne) — ne prikazuju stvarnu radionicu -->
+    <figure class="about__media reveal" style="margin:0">
+      <span class="about__frame" aria-hidden="true"></span>
+      <div class="about__main">
+        <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=900&h=1125&q=72"
+             srcset="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=600&h=750&q=70 600w,
+                     https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=900&h=1125&q=72 900w,
+                     https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=1200&h=1500&q=72 1200w"
+             sizes="(min-width:900px) 45vw, 86vw" width="900" height="1125" loading="lazy" decoding="async"
+             alt="Uredno složen alat u automehaničarskoj radionici" data-i18n-attr="alt:img.about">
+        <span class="about__tag"><svg aria-hidden="true"><use href="#i-pin"/></svg>Rovinj · Istra</span>
+      </div>
+      <div class="about__inset">
+        <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=600&h=600&q=72"
+             width="600" height="600" loading="lazy" decoding="async"
+             alt="Detalj motora automobila" data-i18n-attr="alt:img.engine">
+      </div>
+    </figure>
+
+    <div class="about__body">
+      <p class="label reveal" data-i18n="about.label">O nama</p>
+      <h2 class="h2 reveal" id="about-title" style="--d:.05s" data-i18n="about.title">Vaš auto servis u Rovinju.</h2>
+      <p class="reveal" style="--d:.1s" data-i18n="about.text">G.T. Auto-Nautic Service nalazi se u Rovinju i pruža usluge autoservisa. Za informacije o dostupnim radovima, terminima i potrebama vašeg vozila obratite nam se izravno.</p>
+      <dl class="facts reveal" style="--d:.15s">
+        <div><dt data-i18n="facts.address">Adresa</dt><dd>Stanjera 3a</dd></div>
+        <div><dt data-i18n="facts.city">Grad</dt><dd>52210 Rovinj</dd></div>
+        <div><dt data-i18n="facts.phone">Telefon</dt><dd><a href="tel:+385989074797" data-i18n="phone">098 907 4797</a></dd></div>
+        <div><dt data-i18n="facts.google">Google</dt><dd data-i18n="fmt.score">4,7 / 5</dd></div>
+      </dl>
+      <a class="btn btn--outline reveal" style="--d:.2s" href="tel:+385989074797"><span data-i18n="about.cta">Nazovite za informacije</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<!--
+  DEMO SADRŽAJ: kategorije usluga su općenite i NISU potvrđene.
+  Prije objave potvrditi s vlasnikom točan popis usluga (auto i nautika).
+-->
+<section class="section services" id="usluge" aria-labelledby="services-title">
+  <div class="container services__grid">
+    <div class="services__head">
+      <p class="label reveal" data-i18n="services.label">Usluge</p>
+      <h2 class="h2 reveal" id="services-title" style="--d:.05s" data-i18n="services.title">Briga o vašem vozilu.</h2>
+      <p class="reveal" style="--d:.1s" data-i18n="services.intro">Za točan opseg radova i slobodne termine najbrže je nazvati izravno.</p>
+      <a class="services__phone reveal" style="--d:.15s" href="tel:+385989074797"><span data-i18n="phone">098 907 4797</span></a>
+    </div>
+
+    <div class="services__list">
+      <article class="srv reveal">
+        <span class="srv__icon" aria-hidden="true"><svg><use href="#i-wrench"/></svg></span>
+        <div>
+          <span class="srv__num">01</span>
+          <h3 data-i18n="s1.t">Autoservis</h3>
+          <p data-i18n="s1.d">Za informacije o servisu i održavanju vašeg vozila kontaktirajte nas.</p>
+        </div>
+        <a class="srv__link" href="tel:+385989074797"><span data-i18n="services.ask">Raspitajte se</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="srv reveal" style="--d:.06s">
+        <span class="srv__icon" aria-hidden="true"><svg><use href="#i-gauge"/></svg></span>
+        <div>
+          <span class="srv__num">02</span>
+          <h3 data-i18n="s2.t">Dijagnostika i popravci</h3>
+          <p data-i18n="s2.d">Imate problem s vozilom? Nazovite nas i provjerite mogućnosti pregleda i popravka.</p>
+        </div>
+        <a class="srv__link" href="tel:+385989074797"><span data-i18n="services.ask">Raspitajte se</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="srv reveal" style="--d:.12s">
+        <span class="srv__icon" aria-hidden="true"><svg><use href="#i-anchor"/></svg></span>
+        <div>
+          <span class="srv__num">03</span>
+          <h3 data-i18n="s3.t">Auto-nautic upiti</h3>
+          <p data-i18n="s3.d">Za informacije o dostupnim auto-nautičkim uslugama obratite nam se izravno.</p>
+        </div>
+        <a class="srv__link" href="tel:+385989074797"><span data-i18n="services.ask">Raspitajte se</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY ================= -->
+<section class="section why" aria-labelledby="why-title">
+  <div class="container">
+    <div class="why__head">
+      <p class="label label--light reveal" data-i18n="why.label">Zašto G.T.</p>
+      <h2 class="h2 reveal" id="why-title" style="--d:.05s" data-i18n="why.title">Servis kojem se možete obratiti s povjerenjem.</h2>
+    </div>
+    <div class="why__grid">
+      <div class="why__item reveal">
+        <span class="why__num" aria-hidden="true">01</span>
+        <span class="why__icon" aria-hidden="true"><svg><use href="#i-chat"/></svg></span>
+        <h3 data-i18n="w1.t">Jednostavan kontakt</h3>
+        <p data-i18n="w1.d">Nazovite nas izravno i raspitajte se o usluzi.</p>
+        <a href="tel:+385989074797"><span data-i18n="phone">098 907 4797</span></a>
+      </div>
+      <div class="why__item reveal" style="--d:.08s">
+        <span class="why__num" aria-hidden="true">02</span>
+        <span class="why__icon" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>
+        <h3 data-i18n="w2.t">Lokacija u Rovinju</h3>
+        <p data-i18n="w2.d">Pronađite nas na adresi Stanjera 3a.</p>
+        <a href="#" data-maps target="_blank" rel="noopener"><span data-i18n="w2.a">Otvori kartu</span></a>
+      </div>
+      <div class="why__item reveal" style="--d:.16s">
+        <span class="why__num" aria-hidden="true">03</span>
+        <span class="why__icon" aria-hidden="true"><svg><use href="#i-badge"/></svg></span>
+        <h3 data-i18n="w3.t">Pozitivne Google ocjene</h3>
+        <p data-i18n="w3.d">4,7 / 5 na temelju 182 recenzije.</p>
+        <a href="#recenzije"><span data-i18n="w3.a">Pogledajte ocjenu</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AUTO × NAUTIC (branding, ne tvrdnja o uslugama) ================= -->
+<section class="split" aria-labelledby="split-title">
+  <figure class="split__half split__half--auto" style="margin:0">
+    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=1200&h=1300&q=72"
+         srcset="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&h=560&q=70 800w,
+                 https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=1200&h=1300&q=72 1200w"
+         sizes="(min-width:900px) 50vw, 100vw" width="1200" height="1300" loading="lazy" decoding="async"
+         alt="Ruke mehaničara s ključem u motornom prostoru" data-i18n-attr="alt:img.auto">
+    <figcaption class="split__tag">AUTO</figcaption>
+  </figure>
+  <div class="split__card reveal">
+    <div class="split__rule" aria-hidden="true"><svg><use href="#i-car"/></svg><svg><use href="#i-anchor"/></svg></div>
+    <h2 id="split-title"><span>Auto <em>&amp;</em> Nautic.</span><span data-i18n="split.l2">Jedno ime.</span></h2>
+    <p>G.T. Auto-Nautic Service — Rovinj</p>
+  </div>
+  <figure class="split__half split__half--nautic" style="margin:0">
+    <img src="https://images.unsplash.com/photo-1540946485063-a40da27545f8?auto=format&fit=crop&w=1200&h=1300&q=72"
+         srcset="https://images.unsplash.com/photo-1540946485063-a40da27545f8?auto=format&fit=crop&w=800&h=560&q=70 800w,
+                 https://images.unsplash.com/photo-1540946485063-a40da27545f8?auto=format&fit=crop&w=1200&h=1300&q=72 1200w"
+         sizes="(min-width:900px) 50vw, 100vw" width="1200" height="1300" loading="lazy" decoding="async"
+         alt="Jedrilica na otvorenom moru" data-i18n-attr="alt:img.nautic">
+    <figcaption class="split__tag">NAUTIC</figcaption>
+  </figure>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="section" id="recenzije" aria-labelledby="reviews-title">
+  <div class="container reviews__grid">
+    <div class="score reveal">
+      <div class="score__top">
+        <span class="score__brand"><svg aria-hidden="true"><use href="#i-g"/></svg>Google</span>
+      </div>
+      <p class="score__value"><b data-i18n="fmt.rating">4,7</b><span>/ 5</span></p>
+      <span class="stars" data-stars role="img" aria-label="4,7 / 5" data-i18n-attr="aria-label:fmt.score"></span>
+      <p class="score__basis" data-i18n="reviews.basis">Na temelju 182 Google recenzije</p>
+    </div>
+    <div class="reviews__body">
+      <p class="label reveal" data-i18n="reviews.label">Recenzije</p>
+      <h2 class="h2 reveal" id="reviews-title" style="--d:.05s" data-i18n="reviews.title">Povjerenje koje se gradi iskustvom.</h2>
+      <p class="reveal" style="--d:.1s" data-i18n="reviews.text">Iskustva klijenata javno su dostupna na Google profilu servisa — pročitajte ih na izvoru.</p>
+      <a class="btn btn--primary reveal" style="--d:.15s" href="#" data-reviews target="_blank" rel="noopener"><span data-i18n="reviews.cta">Pogledajte Google recenzije</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <p class="reviews__note reveal" style="--d:.2s" data-i18n="reviews.note">Ocjena i broj recenzija prema Google profilu.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOCATION ================= -->
+<section class="section location" id="kontakt" aria-labelledby="loc-title">
+  <div class="container location__grid">
+    <div class="location__info">
+      <p class="label reveal" data-i18n="loc.label">Kontakt</p>
+      <h2 class="h2 reveal" id="loc-title" style="--d:.05s" data-i18n="loc.title">Pronađite nas u Rovinju.</h2>
+      <div class="addr reveal" style="--d:.1s">
+        <div class="addr__row">
+          <svg aria-hidden="true"><use href="#i-pin"/></svg>
+          <div><p class="addr__k">G.T. Auto-Nautic Service</p>
+            <address class="addr__v">Stanjera 3a<br>52210 Rovinj<br><span data-i18n="loc.country">Hrvatska</span></address></div>
+        </div>
+        <div class="addr__row">
+          <svg aria-hidden="true"><use href="#i-phone"/></svg>
+          <div><p class="addr__k" data-i18n="facts.phone">Telefon</p>
+            <p class="addr__v"><a href="tel:+385989074797" data-i18n="phone">098 907 4797</a></p></div>
+        </div>
+      </div>
+      <div class="location__btns reveal" style="--d:.15s">
+        <a class="btn btn--primary" href="#" data-maps target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-route"/></svg><span data-i18n="loc.maps">Otvori Google karte</span></a>
+        <a class="btn btn--outline" href="tel:+385989074797"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="nav.call">Nazovite nas</span></a>
+      </div>
+    </div>
+
+    <div class="map reveal" style="--d:.1s">
+      <iframe src="https://maps.google.com/maps?q=Stanjera%203a%2C%2052210%20Rovinj%2C%20Croatia&z=16&output=embed"
+              title="Karta: Stanjera 3a, Rovinj" data-i18n-attr="title:loc.mapTitle"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="section final" aria-labelledby="final-title">
+  <img class="final__bg" src="https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?auto=format&fit=crop&w=1600&q=65"
+       srcset="https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?auto=format&fit=crop&w=800&h=1000&q=60 800w,
+               https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?auto=format&fit=crop&w=1600&q=65 1600w"
+       sizes="100vw" alt="" loading="lazy" decoding="async" width="1600" height="1067">
+  <div class="container">
+    <p class="label label--light reveal" data-i18n="final.label">Rovinj · Istra</p>
+    <h2 id="final-title" class="reveal" style="--d:.05s" data-i18n="final.title">Trebate auto servis u Rovinju?</h2>
+    <p class="reveal" style="--d:.1s" data-i18n="final.text">Kontaktirajte G.T. Auto-Nautic Service i raspitajte se o dostupnim uslugama.</p>
+    <div class="final__btns reveal" style="--d:.15s">
+      <a class="btn btn--primary" href="tel:+385989074797"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="final.call">Nazovite 098 907 4797</span></a>
+      <a class="btn btn--ghost" href="#" data-maps target="_blank" rel="noopener"><span data-i18n="hero.cta2">Kako do nas</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="logo" href="#pocetna" aria-label="G.T. Auto-Nautic Service">
+          <span class="logo__mark" aria-hidden="true">GT</span>
+          <span class="logo__text"><span class="logo__name">G.T. AUTO-NAUTIC</span><span class="logo__sub">SERVICE · ROVINJ</span></span>
+        </a>
+        <p class="footer__tag" data-i18n="footer.tag">Rovinj, Hrvatska</p>
+      </div>
+      <nav aria-labelledby="f-nav">
+        <h3 id="f-nav" data-i18n="footer.nav">Navigacija</h3>
+        <ul>
+          <li><a href="#pocetna" data-i18n="nav.home">Početna</a></li>
+          <li><a href="#o-nama" data-i18n="nav.about">O nama</a></li>
+          <li><a href="#usluge" data-i18n="nav.services">Usluge</a></li>
+          <li><a href="#recenzije" data-i18n="nav.reviews">Recenzije</a></li>
+          <li><a href="#kontakt" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h3 data-i18n="nav.contact">Kontakt</h3>
+        <address>G.T. Auto-Nautic Service<br>Stanjera 3a, 52210 Rovinj</address>
+        <p style="margin-top:.6rem"><a href="tel:+385989074797" data-i18n="phone">098 907 4797</a></p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> G.T. Auto-Nautic Service. <span data-i18n="footer.rights">Sva prava pridržana.</span> <span data-i18n="footer.photos">Fotografije su ilustrativne.</span></span>
+      <span data-i18n="footer.credit">Web dizajn — Web Design Jakov</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile contact dock -->
+<div class="dock" id="dock" aria-hidden="true">
+  <a class="btn btn--primary" href="tel:+385989074797" tabindex="-1"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="dock.call">Nazovite</span></a>
+  <a class="btn btn--outline" href="#" data-maps target="_blank" rel="noopener" tabindex="-1"><svg aria-hidden="true"><use href="#i-route"/></svg><span data-i18n="dock.dir">Karta</span></a>
+</div>
+
+<script>
+/* =========================================================================
+   CONFIG — podaci koje treba lako ažurirati prije objave
+   ========================================================================= */
+const CONFIG = {
+  rating: 4.7,          // Google ocjena (referentni podatak — provjeriti prije objave)
+  reviews: 182,         // broj Google recenzija (referentni podatak)
+  phoneLocal: "098 907 4797",
+  phoneIntl: "+385 98 907 4797",
+  // Nema potvrđenog linka na Google profil — koristi se pretraga po nazivu i adresi.
+  // Zamijeniti točnim linkom profila (Share → Copy link) kad bude poznat.
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=G.T.+Auto-Nautic+Service%2C+Stanjera+3a%2C+52210+Rovinj",
+  reviewsUrl: "https://www.google.com/maps/search/?api=1&query=G.T.+Auto-Nautic+Service%2C+Stanjera+3a%2C+52210+Rovinj",
+  defaultLang: "hr",
+  langs: ["hr", "en", "de", "it"]
+};
+
+/* =========================================================================
+   TRANSLATIONS
+   {rating} {reviews} {phone} se umeću automatski
+   ========================================================================= */
+const I18N = {
+  hr: {
+    "meta.title": "G.T. Auto-Nautic Service — Auto servis Rovinj",
+    "skip": "Preskoči na sadržaj",
+    "nav.aria": "Glavna navigacija", "lang.aria": "Odabir jezika",
+    "nav.home": "Početna", "nav.about": "O nama", "nav.services": "Usluge", "nav.reviews": "Recenzije", "nav.contact": "Kontakt",
+    "nav.call": "Nazovite nas", "nav.open": "Otvori izbornik", "nav.close": "Zatvori izbornik",
+    "phone": "{phone}",
+    "fmt.rating": "{rating}", "fmt.score": "{rating} / 5",
+    "hero.eyebrow": "Auto servis • Rovinj",
+    "hero.l1": "Pouzdan servis.", "hero.l2": "Sigurna vožnja.",
+    "hero.text": "Profesionalan pristup održavanju i servisu vozila u Rovinju. Obratite nam se s povjerenjem.",
+    "hero.cta1": "Nazovite servis", "hero.cta2": "Kako do nas",
+    "hero.rating": "{rating} / 5 na Googleu", "hero.reviews": "{reviews} recenzije",
+    "trust.aria": "Osnovni podaci", "trust.l1": "Lokacija", "trust.v1": "Rovinj, Istra", "trust.l2": "Google ocjena", "trust.l3": "Kontakt",
+    "about.label": "O nama", "about.title": "Vaš auto servis u Rovinju.",
+    "about.text": "G.T. Auto-Nautic Service nalazi se u Rovinju i pruža usluge autoservisa. Za informacije o dostupnim radovima, terminima i potrebama vašeg vozila obratite nam se izravno.",
+    "about.cta": "Nazovite za informacije",
+    "facts.address": "Adresa", "facts.city": "Grad", "facts.phone": "Telefon", "facts.google": "Google ocjena",
+    "services.label": "Usluge", "services.title": "Briga o vašem vozilu.",
+    "services.intro": "Za točan opseg radova i slobodne termine najbrže je nazvati izravno.",
+    "services.ask": "Raspitajte se",
+    "s1.t": "Autoservis", "s1.d": "Za informacije o servisu i održavanju vašeg vozila kontaktirajte nas.",
+    "s2.t": "Dijagnostika i popravci", "s2.d": "Imate problem s vozilom? Nazovite nas i provjerite mogućnosti pregleda i popravka.",
+    "s3.t": "Auto-nautic upiti", "s3.d": "Za informacije o dostupnim auto-nautičkim uslugama obratite nam se izravno.",
+    "why.label": "Zašto G.T.", "why.title": "Servis kojem se možete obratiti s povjerenjem.",
+    "w1.t": "Jednostavan kontakt", "w1.d": "Nazovite nas izravno i raspitajte se o usluzi.",
+    "w2.t": "Lokacija u Rovinju", "w2.d": "Pronađite nas na adresi Stanjera 3a.", "w2.a": "Otvori kartu",
+    "w3.t": "Pozitivne Google ocjene", "w3.d": "{rating} / 5 na temelju {reviews} recenzije.", "w3.a": "Pogledajte ocjenu",
+    "split.l2": "Jedno ime.",
+    "reviews.label": "Recenzije", "reviews.basis": "Na temelju {reviews} Google recenzije",
+    "reviews.title": "Povjerenje koje se gradi iskustvom.",
+    "reviews.text": "Iskustva klijenata javno su dostupna na Google profilu servisa — pročitajte ih na izvoru.",
+    "reviews.cta": "Pogledajte Google recenzije", "reviews.note": "Ocjena i broj recenzija prema Google profilu.",
+    "loc.label": "Kontakt", "loc.title": "Pronađite nas u Rovinju.", "loc.country": "Hrvatska",
+    "loc.maps": "Otvori Google karte", "loc.mapTitle": "Karta: Stanjera 3a, Rovinj",
+    "final.label": "Rovinj · Istra", "final.title": "Trebate auto servis u Rovinju?",
+    "final.text": "Kontaktirajte G.T. Auto-Nautic Service i raspitajte se o dostupnim uslugama.",
+    "final.call": "Nazovite {phone}",
+    "footer.tag": "Rovinj, Hrvatska", "footer.nav": "Navigacija", "footer.rights": "Sva prava pridržana.",
+    "footer.photos": "Fotografije su ilustrativne.", "footer.credit": "Web dizajn — Web Design Jakov",
+    "dock.call": "Nazovite", "dock.dir": "Kako do nas",
+    "img.hero": "Mehaničar pregledava motorni prostor automobila", "img.about": "Uredno složen alat u automehaničarskoj radionici",
+    "img.engine": "Detalj motora automobila", "img.auto": "Ruke mehaničara s ključem u motornom prostoru", "img.nautic": "Jedrilica na otvorenom moru"
+  },
+  en: {
+    "meta.title": "G.T. Auto-Nautic Service — Car Service & Mechanic in Rovinj",
+    "skip": "Skip to content",
+    "nav.aria": "Main navigation", "lang.aria": "Choose language",
+    "nav.home": "Home", "nav.about": "About", "nav.services": "Services", "nav.reviews": "Reviews", "nav.contact": "Contact",
+    "nav.call": "Call us", "nav.open": "Open menu", "nav.close": "Close menu",
+    "phone": "{phone}",
+    "fmt.rating": "{rating}", "fmt.score": "{rating} / 5",
+    "hero.eyebrow": "Car service • Rovinj",
+    "hero.l1": "Reliable service.", "hero.l2": "Safe driving.",
+    "hero.text": "A professional approach to vehicle maintenance and servicing in Rovinj. Get in touch with confidence.",
+    "hero.cta1": "Call the garage", "hero.cta2": "Get directions",
+    "hero.rating": "{rating} / 5 on Google", "hero.reviews": "{reviews} reviews",
+    "trust.aria": "Key information", "trust.l1": "Location", "trust.v1": "Rovinj, Istria", "trust.l2": "Google rating", "trust.l3": "Contact",
+    "about.label": "About us", "about.title": "Your car service in Rovinj.",
+    "about.text": "G.T. Auto-Nautic Service is based in Rovinj and provides car service. For information on available work, appointments and your vehicle's needs, please contact us directly.",
+    "about.cta": "Call for information",
+    "facts.address": "Address", "facts.city": "Town", "facts.phone": "Phone", "facts.google": "Google rating",
+    "services.label": "Services", "services.title": "Care for your vehicle.",
+    "services.intro": "For the exact scope of work and available appointments, the quickest way is to call us directly.",
+    "services.ask": "Enquire",
+    "s1.t": "Car service", "s1.d": "Contact us for information on servicing and maintaining your vehicle.",
+    "s2.t": "Diagnostics & repairs", "s2.d": "Having trouble with your car? Call us to check the options for an inspection and repair.",
+    "s3.t": "Auto-nautic enquiries", "s3.d": "For information on available auto-nautic services, please contact us directly.",
+    "why.label": "Why G.T.", "why.title": "A garage you can turn to with confidence.",
+    "w1.t": "Easy to reach", "w1.d": "Call us directly and ask about the service you need.",
+    "w2.t": "Located in Rovinj", "w2.d": "Find us at Stanjera 3a.", "w2.a": "Open map",
+    "w3.t": "Positive Google ratings", "w3.d": "{rating} / 5 based on {reviews} reviews.", "w3.a": "See the rating",
+    "split.l2": "One name.",
+    "reviews.label": "Reviews", "reviews.basis": "Based on {reviews} Google reviews",
+    "reviews.title": "Trust built through experience.",
+    "reviews.text": "Customer experiences are publicly available on the garage's Google profile — read them at the source.",
+    "reviews.cta": "Read Google reviews", "reviews.note": "Rating and review count as shown on the Google profile.",
+    "loc.label": "Contact", "loc.title": "Find us in Rovinj.", "loc.country": "Croatia",
+    "loc.maps": "Open Google Maps", "loc.mapTitle": "Map: Stanjera 3a, Rovinj",
+    "final.label": "Rovinj · Istria", "final.title": "Need a car service in Rovinj?",
+    "final.text": "Contact G.T. Auto-Nautic Service and ask about the services available.",
+    "final.call": "Call {phone}",
+    "footer.tag": "Rovinj, Croatia", "footer.nav": "Navigation", "footer.rights": "All rights reserved.",
+    "footer.photos": "Photos are illustrative.", "footer.credit": "Web design — Web Design Jakov",
+    "dock.call": "Call", "dock.dir": "Directions",
+    "img.hero": "Mechanic inspecting a car's engine bay", "img.about": "Neatly arranged tools in a mechanic's workshop",
+    "img.engine": "Close-up of a car engine", "img.auto": "Mechanic's hands with a wrench in an engine bay", "img.nautic": "Sailing boat on the open sea"
+  },
+  de: {
+    "meta.title": "G.T. Auto-Nautic Service — Autowerkstatt in Rovinj",
+    "skip": "Zum Inhalt springen",
+    "nav.aria": "Hauptnavigation", "lang.aria": "Sprache wählen",
+    "nav.home": "Start", "nav.about": "Über uns", "nav.services": "Leistungen", "nav.reviews": "Bewertungen", "nav.contact": "Kontakt",
+    "nav.call": "Jetzt anrufen", "nav.open": "Menü öffnen", "nav.close": "Menü schließen",
+    "phone": "{phone}",
+    "fmt.rating": "{rating}", "fmt.score": "{rating} / 5",
+    "hero.eyebrow": "Autowerkstatt • Rovinj",
+    "hero.l1": "Verlässlicher Service.", "hero.l2": "Sicher unterwegs.",
+    "hero.text": "Professionelle Wartung und Service für Ihr Fahrzeug in Rovinj. Wenden Sie sich vertrauensvoll an uns.",
+    "hero.cta1": "Werkstatt anrufen", "hero.cta2": "Anfahrt",
+    "hero.rating": "{rating} / 5 auf Google", "hero.reviews": "{reviews} Bewertungen",
+    "trust.aria": "Wichtige Informationen", "trust.l1": "Standort", "trust.v1": "Rovinj, Istrien", "trust.l2": "Google-Bewertung", "trust.l3": "Kontakt",
+    "about.label": "Über uns", "about.title": "Ihre Autowerkstatt in Rovinj.",
+    "about.text": "G.T. Auto-Nautic Service befindet sich in Rovinj und bietet Kfz-Service an. Für Informationen zu möglichen Arbeiten, Terminen und den Anforderungen Ihres Fahrzeugs kontaktieren Sie uns bitte direkt.",
+    "about.cta": "Anrufen & informieren",
+    "facts.address": "Adresse", "facts.city": "Ort", "facts.phone": "Telefon", "facts.google": "Google-Bewertung",
+    "services.label": "Leistungen", "services.title": "Sorgfalt für Ihr Fahrzeug.",
+    "services.intro": "Den genauen Leistungsumfang und freie Termine erfahren Sie am schnellsten telefonisch.",
+    "services.ask": "Anfragen",
+    "s1.t": "Kfz-Service", "s1.d": "Kontaktieren Sie uns für Informationen zu Service und Wartung Ihres Fahrzeugs.",
+    "s2.t": "Diagnose & Reparatur", "s2.d": "Probleme mit dem Fahrzeug? Rufen Sie uns an und klären Sie die Möglichkeiten für Prüfung und Reparatur.",
+    "s3.t": "Auto-Nautik-Anfragen", "s3.d": "Für Informationen zu verfügbaren Auto-Nautik-Leistungen wenden Sie sich bitte direkt an uns.",
+    "why.label": "Warum G.T.", "why.title": "Eine Werkstatt, der Sie vertrauen können.",
+    "w1.t": "Einfacher Kontakt", "w1.d": "Rufen Sie uns direkt an und fragen Sie nach der gewünschten Leistung.",
+    "w2.t": "Standort in Rovinj", "w2.d": "Sie finden uns in der Stanjera 3a.", "w2.a": "Karte öffnen",
+    "w3.t": "Positive Google-Bewertungen", "w3.d": "{rating} / 5 auf Basis von {reviews} Bewertungen.", "w3.a": "Bewertung ansehen",
+    "split.l2": "Ein Name.",
+    "reviews.label": "Bewertungen", "reviews.basis": "Basierend auf {reviews} Google-Bewertungen",
+    "reviews.title": "Vertrauen, das mit Erfahrung wächst.",
+    "reviews.text": "Die Erfahrungen unserer Kunden sind öffentlich im Google-Profil der Werkstatt einsehbar — lesen Sie sie direkt an der Quelle.",
+    "reviews.cta": "Google-Bewertungen ansehen", "reviews.note": "Bewertung und Anzahl laut Google-Profil.",
+    "loc.label": "Kontakt", "loc.title": "So finden Sie uns in Rovinj.", "loc.country": "Kroatien",
+    "loc.maps": "In Google Maps öffnen", "loc.mapTitle": "Karte: Stanjera 3a, Rovinj",
+    "final.label": "Rovinj · Istrien", "final.title": "Autowerkstatt in Rovinj gesucht?",
+    "final.text": "Kontaktieren Sie G.T. Auto-Nautic Service und fragen Sie nach den verfügbaren Leistungen.",
+    "final.call": "{phone} anrufen",
+    "footer.tag": "Rovinj, Kroatien", "footer.nav": "Navigation", "footer.rights": "Alle Rechte vorbehalten.",
+    "footer.photos": "Fotos dienen der Illustration.", "footer.credit": "Webdesign — Web Design Jakov",
+    "dock.call": "Anrufen", "dock.dir": "Anfahrt",
+    "img.hero": "Mechaniker prüft den Motorraum eines Autos", "img.about": "Ordentlich sortiertes Werkzeug in einer Kfz-Werkstatt",
+    "img.engine": "Nahaufnahme eines Automotors", "img.auto": "Hände eines Mechanikers mit Schraubenschlüssel im Motorraum", "img.nautic": "Segelboot auf offener See"
+  },
+  it: {
+    "meta.title": "G.T. Auto-Nautic Service — Officina auto a Rovinj (Rovigno)",
+    "skip": "Vai al contenuto",
+    "nav.aria": "Navigazione principale", "lang.aria": "Scegli la lingua",
+    "nav.home": "Home", "nav.about": "Chi siamo", "nav.services": "Servizi", "nav.reviews": "Recensioni", "nav.contact": "Contatti",
+    "nav.call": "Chiamaci", "nav.open": "Apri menu", "nav.close": "Chiudi menu",
+    "phone": "{phone}",
+    "fmt.rating": "{rating}", "fmt.score": "{rating} / 5",
+    "hero.eyebrow": "Officina auto • Rovigno",
+    "hero.l1": "Servizio affidabile.", "hero.l2": "Guida sicura.",
+    "hero.text": "Un approccio professionale alla manutenzione e all'assistenza del vostro veicolo a Rovigno. Rivolgetevi a noi con fiducia.",
+    "hero.cta1": "Chiama l'officina", "hero.cta2": "Come raggiungerci",
+    "hero.rating": "{rating} / 5 su Google", "hero.reviews": "{reviews} recensioni",
+    "trust.aria": "Informazioni principali", "trust.l1": "Posizione", "trust.v1": "Rovigno, Istria", "trust.l2": "Valutazione Google", "trust.l3": "Contatto",
+    "about.label": "Chi siamo", "about.title": "La vostra officina a Rovigno.",
+    "about.text": "G.T. Auto-Nautic Service si trova a Rovigno e offre servizi di officina auto. Per informazioni su lavori disponibili, appuntamenti ed esigenze del vostro veicolo, contattateci direttamente.",
+    "about.cta": "Chiama per informazioni",
+    "facts.address": "Indirizzo", "facts.city": "Città", "facts.phone": "Telefono", "facts.google": "Valutazione Google",
+    "services.label": "Servizi", "services.title": "Cura per il vostro veicolo.",
+    "services.intro": "Per conoscere i lavori possibili e la disponibilità, il modo più rapido è chiamarci direttamente.",
+    "services.ask": "Chiedi informazioni",
+    "s1.t": "Assistenza auto", "s1.d": "Contattateci per informazioni sull'assistenza e la manutenzione del vostro veicolo.",
+    "s2.t": "Diagnosi e riparazioni", "s2.d": "Un problema con l'auto? Chiamateci per verificare le possibilità di controllo e riparazione.",
+    "s3.t": "Richieste auto-nautiche", "s3.d": "Per informazioni sui servizi auto-nautici disponibili, rivolgetevi direttamente a noi.",
+    "why.label": "Perché G.T.", "why.title": "Un'officina a cui affidarsi con fiducia.",
+    "w1.t": "Contatto semplice", "w1.d": "Chiamateci direttamente e chiedete del servizio di cui avete bisogno.",
+    "w2.t": "A Rovigno", "w2.d": "Ci trovate in Stanjera 3a.", "w2.a": "Apri la mappa",
+    "w3.t": "Valutazioni Google positive", "w3.d": "{rating} / 5 su {reviews} recensioni.", "w3.a": "Vedi la valutazione",
+    "split.l2": "Un solo nome.",
+    "reviews.label": "Recensioni", "reviews.basis": "Su {reviews} recensioni Google",
+    "reviews.title": "Una fiducia costruita con l'esperienza.",
+    "reviews.text": "Le esperienze dei clienti sono pubblicamente disponibili sul profilo Google dell'officina — leggetele alla fonte.",
+    "reviews.cta": "Leggi le recensioni Google", "reviews.note": "Valutazione e numero di recensioni secondo il profilo Google.",
+    "loc.label": "Contatti", "loc.title": "Dove trovarci a Rovigno.", "loc.country": "Croazia",
+    "loc.maps": "Apri Google Maps", "loc.mapTitle": "Mappa: Stanjera 3a, Rovigno",
+    "final.label": "Rovigno · Istria", "final.title": "Cercate un'officina a Rovigno?",
+    "final.text": "Contattate G.T. Auto-Nautic Service e chiedete informazioni sui servizi disponibili.",
+    "final.call": "Chiama {phone}",
+    "footer.tag": "Rovigno, Croazia", "footer.nav": "Navigazione", "footer.rights": "Tutti i diritti riservati.",
+    "footer.photos": "Le foto sono illustrative.", "footer.credit": "Web design — Web Design Jakov",
+    "dock.call": "Chiama", "dock.dir": "Indicazioni",
+    "img.hero": "Meccanico che controlla il vano motore di un'auto", "img.about": "Attrezzi ordinati in un'officina meccanica",
+    "img.engine": "Dettaglio del motore di un'auto", "img.auto": "Mani di un meccanico con una chiave nel vano motore", "img.nautic": "Barca a vela in mare aperto"
+  }
+};
+
+(function () {
+  "use strict";
+  const doc = document.documentElement;
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!reduceMotion) doc.classList.add("js");
+
+  const store = {
+    get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } },
+    set(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+  };
+
+  /* ---------- Links ---------- */
+  document.querySelectorAll("[data-maps]").forEach(a => a.href = CONFIG.mapsUrl);
+  document.querySelectorAll("[data-reviews]").forEach(a => a.href = CONFIG.reviewsUrl);
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  /* ---------- Stars ---------- */
+  const star = '<svg><use href="#i-star"/></svg>';
+  const row = star.repeat(5);
+  const pct = Math.max(0, Math.min(100, CONFIG.rating / 5 * 100));
+  document.querySelectorAll("[data-stars]").forEach(el => {
+    el.style.setProperty("--pct", pct + "%");
+    el.innerHTML = '<span class="stars__row stars__base">' + row + '</span><span class="stars__fill"><span class="stars__row">' + row + '</span></span>';
+  });
+
+  /* ---------- i18n ---------- */
+  const locales = { hr: "hr-HR", en: "en-GB", de: "de-DE", it: "it-IT" };
+  let current = CONFIG.defaultLang;
+
+  function fill(str, lang) {
+    const rating = new Intl.NumberFormat(locales[lang], { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(CONFIG.rating);
+    return str
+      .replace(/\{rating\}/g, rating)
+      .replace(/\{reviews\}/g, CONFIG.reviews)
+      .replace(/\{phone\}/g, lang === "hr" ? CONFIG.phoneLocal : CONFIG.phoneIntl);
+  }
+  function t(key, lang) {
+    const s = (I18N[lang] && I18N[lang][key]) ?? I18N.hr[key];
+    return s == null ? null : fill(s, lang);
+  }
+
+  function renderSwitchers() {
+    document.querySelectorAll("[data-lang-switch]").forEach(group => {
+      group.innerHTML = CONFIG.langs.map(l =>
+        '<button type="button" data-lang="' + l + '" lang="' + l + '" aria-pressed="' + (l === current) + '">' + l.toUpperCase() + '</button>'
+      ).join("");
+    });
+  }
+
+  function setLang(lang, persist) {
+    if (!I18N[lang]) lang = CONFIG.defaultLang;
+    current = lang;
+    doc.lang = lang;
+    document.title = t("meta.title", lang);
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+      const v = t(el.dataset.i18n, lang);
+      if (v != null) el.textContent = v;
+    });
+    document.querySelectorAll("[data-i18n-attr]").forEach(el => {
+      el.dataset.i18nAttr.split(";").forEach(pair => {
+        const [attr, key] = pair.split(":");
+        const v = t(key, lang);
+        if (v != null) el.setAttribute(attr, v);
+      });
+    });
+    syncBurgerLabel();
+    renderSwitchers();
+    if (persist) store.set("gt-lang", lang);
+  }
+
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-lang]");
+    if (b) setLang(b.dataset.lang, true);
+  });
+
+  /* ---------- Nav state ---------- */
+  const nav = document.getElementById("nav");
+  const onScroll = () => nav.classList.toggle("is-solid", window.scrollY > 24);
+  window.addEventListener("scroll", onScroll, { passive: true });
+
+  /* ---------- Mobile menu ---------- */
+  const burger = document.getElementById("burger");
+  const menu = document.getElementById("menu");
+  let menuOpen = false;
+
+  function syncBurgerLabel() {
+    burger.setAttribute("aria-label", t(menuOpen ? "nav.close" : "nav.open", current));
+  }
+  function toggleMenu(open) {
+    menuOpen = open;
+    burger.setAttribute("aria-expanded", String(open));
+    menu.classList.toggle("is-open", open);
+    menu.setAttribute("aria-hidden", String(!open));
+    menu.inert = !open;
+    document.body.style.overflow = open ? "hidden" : "";
+    nav.classList.toggle("is-menu", open);
+    syncBurgerLabel();
+    onScroll();
+    if (open) { const first = menu.querySelector("a"); first && first.focus({ preventScroll: true }); }
+  }
+  menu.inert = true;
+  burger.addEventListener("click", () => toggleMenu(!menuOpen));
+  menu.addEventListener("click", e => { if (e.target.closest("a[href^='#']")) toggleMenu(false); });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && menuOpen) { toggleMenu(false); burger.focus(); }
+  });
+  window.matchMedia("(min-width:1024px)").addEventListener("change", e => { if (e.matches && menuOpen) toggleMenu(false); });
+
+  /* ---------- Active section in nav ---------- */
+  const links = [...document.querySelectorAll(".nav__links a")];
+  const sections = links.map(a => document.querySelector(a.getAttribute("href"))).filter(Boolean);
+  if ("IntersectionObserver" in window) {
+    const spy = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (!en.isIntersecting) return;
+        links.forEach(a => a.setAttribute("aria-current", String(a.getAttribute("href") === "#" + en.target.id)));
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    sections.forEach(s => spy.observe(s));
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  const reveals = document.querySelectorAll(".reveal");
+  if (!reduceMotion && "IntersectionObserver" in window) {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add("is-in"); io.unobserve(en.target); } });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: .08 });
+    reveals.forEach(el => io.observe(el));
+  } else {
+    reveals.forEach(el => el.classList.add("is-in"));
+  }
+
+  /* ---------- Mobile contact dock ---------- */
+  const dock = document.getElementById("dock");
+  const heroActions = document.getElementById("heroActions");
+  const finalBtns = document.querySelector(".final__btns");
+  if ("IntersectionObserver" in window) {
+    let heroVisible = true, finalVisible = false;
+    const update = () => {
+      const show = !heroVisible && !finalVisible;
+      dock.classList.toggle("is-visible", show);
+      dock.setAttribute("aria-hidden", String(!show));
+      dock.querySelectorAll("a").forEach(a => a.tabIndex = show ? 0 : -1);
+    };
+    new IntersectionObserver(([en]) => { heroVisible = en.isIntersecting; update(); }).observe(heroActions);
+    new IntersectionObserver(([en]) => { finalVisible = en.isIntersecting; update(); }).observe(finalBtns);
+  }
+
+  /* ---------- Init ---------- */
+  const saved = store.get("gt-lang");
+  setLang(saved && I18N[saved] ? saved : CONFIG.defaultLang, false);
+  onScroll();
+})();
+</script>
+</body>
+</html>
